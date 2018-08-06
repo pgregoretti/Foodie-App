@@ -7,6 +7,7 @@ When the application first starts, the user is prompted to log in with Google ac
 Clicking on an image takes the user to a restaurant information screen that shows the restaurant name, categories, distance, address, rating, and an image of the restaurant. Clicking “random” prompts a message that tells the user that if they shake the device while on
 the grid view screen that a random nearby restaurant information page will show. Shaking the device prompts this segue.
 
+![Foodie preview](https://raw.githubusercontent.com/pgregoretti/Foodie-App/master/foodie_preview.png)
 
 ### Note:
 As of June 30, 2018, API v2 has be discontinued and v2 endpoints will no longer work. All Yelp applications must switch over to Yelp Fusion. This is something that I plan on updating in the near future.
