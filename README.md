@@ -8,5 +8,5 @@ Clicking on an image takes the user to a restaurant information screen that show
 the grid view screen that a random nearby restaurant information page will show. Shaking the device prompts this segue.
 
 
-### Note
+### Note:
 As of June 30, 2018, API v2 has be discontinued and v2 endpoints will no longer work. All Yelp applications must switch over to Yelp Fusion. This is something that I plan on updating in the near future.
