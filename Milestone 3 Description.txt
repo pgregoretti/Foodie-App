@@ -1,0 +1,31 @@
+## Group: PINK (iOS) ##
+## Pam Gregoretti (prg5rv), Amy Zhao (awz4pc) ##
+## CS 4720 Final Project ##
+## Milestone 3 ##
+
+
+## Milestone 3 Description ##
+
+__ How to Use App __
+
+When the app is first started, the user must log in with a Google account. We currently have a bug where after logging in, the app returns the user to the main view instead of the logged in confirmation view and the user must click the Google log in button again to continue.
+
+
+__ GPS __
+
+GPS is implemented on the nearby restaurants image feed after the user logs in. These coordinates are used for the Yelp API call to find nearby businesses. The coordinates and businesses from the Yelp search results are currently printed out into the Xcode output text box.
+
+
+__ Web Service __
+
+In the nearby restaurant view controller, we use the GPS coordinates to run a Yelp API call and save the returned list of businesses in an array which we then currently print for now. 
+
+
+__ Local Data __ 
+
+We have figured out a way to segue to a welcome screen once the user has successfully signed in using the home page’s log in button. We have also implemented local data storage using UserDefaults. As a result, when the user has successfully logged in, the user’s personal information such as his/her’s first name, last name, email, etc. are stored locally. The user’s first name is retrieved from the local data storage and displayed on the welcome screen.
+
+
+__ Other Progress __
+
+The nearby restaurant view has an image grid that is populated with dummy images. We will soon populate those images using the business image URLs from the Yelp API call.

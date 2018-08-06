@@ -1,0 +1,56 @@
+## Group: PINK (iOS) ##
+## Pam Gregoretti (prg5rv), Amy Zhao (awz4pc) ##
+## CS 4720 Final Project ##
+## Milestone 1 ##
+
+
+## App Description ##
+Our app will collect restaurant food pictures using the Yelp and Instagram APIs and display the location of the restaurants on a map. Clicking on a restaurant displays a detailed view of the selected restaurant and the user can then choose from a variety of options on that page such as looking through the restaurant’s photos collected from Yelp and Instagram, make a phone call to the restaurant, visit the restaurant’s website in Safari (if applicable), bookmark the restaurant, mark it as “Visited”, etc. In addition, there will be a random restaurant chooser screen that will display a random restaurant in the area.
+
+
+## Explanation of Wireframe ##
+
+__ Log In __
+
+The application starts with a log in page where the user can log into their account. The register account page will take them to a form where they can enter their username, password, and email, or sign in with another social media account. Forgot password will email them a way to change their password.
+
+
+__ Main Map __ 
+
+When the user logs in, they will then be taken to a map view of their current location where they will see thumbnails of food restaurants around them. Clicking on a thumbnail will show a pop up with information about the restaurant. Clicking on this thumbnail will take them to the restaurant info page. Clicking the bottom bar will take them to the random restaurant screen (bottom left), stay on the map screen (middle globe), or to their bookmarks (bottom right). 
+
+
+__ Search __
+
+The search page will let them search for restaurants or cuisines. When the user clicks search, it will then display the results using data taken from Yelp and update the search results on the map.
+
+
+__ Restaurant Details __
+
+When a user views a restaurant, they will be shown information of the restaurant populated by Yelp and images from both Yelp and Instagram. The user can quickly bookmark the restaurant in the top right corner, making the bookmark icon yellow and adding it to their “interested places” list. They can also do that by clicking the “interested” button, or add it to their “visited places” list in their bookmarks by clicking “Visited.” The user can scroll through photos or click on “See All” to view more (shown later). More options are available such as calling the restaurant or visiting the restaurant’s website, which become visible as the user scrolls further down the page.
+
+
+__ Restaurant Details (same page scrolled further down) __
+
+Scrolling down, they will be able to call the restaurant (opening the phone app), visit the restaurant’s website in Safari, look at the directions in Google Maps, or go to the Yelp page in Safari or the Yelp app. At the bottom they still have the navigation bar (this would also be shown at the bottom of the screen when looking at the top of the restaurant information page, i.e. anchored to the bottom of the screen view).
+
+
+__ Photos of Restaurant __
+
+The user can then scroll through images found from Yelp and Instagram. Clicking on an image will bring a larger view of it. The user can also quickly bookmark the restaurant or navigate back to the map or random restaurant page. Clicking back will take them back to the restaurant information view.
+
+
+__ Specific Photo View __
+
+The user can tap the enlarged image to see who and where the image was posted. They can also share it (bottom right icon) or open it in Yelp/Instagram.
+
+
+__ Random Restaurant Chooser __
+
+The Random view is where the user can view a random restaurant in their area. If they want, they can specify the query to only return certain cuisines or delivery. Reset to default will revert all restrictions to all restaurants within their area.
+
+
+__ Bookmarks __
+
+The bookmarks view allows them to look at Visited restaurants, Interested restaurants, or all. They can order the bookmarks by distance or alphabetical. They can also search their bookmarks. Clicking on a restaurant will bring the user to that restaurant information view.
+
